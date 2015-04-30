@@ -6,7 +6,9 @@ describe(Vehicle) do
 		vehicle.clear()
 	end
 	
-	
+	describe ('#test') do
+		it('makes sure that this thing gets uploaded to current repo')
+	end
 
 	describe('#make') do
 		it('returns the make of the vehicle') do
